@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nodux_advanced_payment *.css
+recursive-include nodux_advanced_payment *.csv
+recursive-include nodux_advanced_payment *.html
+recursive-include nodux_advanced_payment *.ico
+recursive-include nodux_advanced_payment *.js
+recursive-include nodux_advanced_payment *.json
+recursive-include nodux_advanced_payment *.md
+recursive-include nodux_advanced_payment *.png
+recursive-include nodux_advanced_payment *.py
+recursive-include nodux_advanced_payment *.svg
+recursive-include nodux_advanced_payment *.txt
+recursive-exclude nodux_advanced_payment *.pyc
